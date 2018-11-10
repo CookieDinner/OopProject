@@ -42,6 +42,15 @@
     <ClInclude Include="exception.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="livestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="managefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -71,6 +80,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livestream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="managefile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
