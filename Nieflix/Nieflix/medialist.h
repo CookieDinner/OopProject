@@ -19,32 +19,31 @@ public:
 
 	~MediaList() {};
 
-	void operator +=(T* Object)
+	inline void operator +=(T* Object)
 	{
 		this->list.push_back(Object);
 		numberofelements++;
 	};
 
-	void operator -=(int i)
+	inline void operator -=(int i)
 	{
-		if (numberofelements > 0 && i <= numberofelements && i > 0) {
-			this->list.erase(list.begin() + (i - 1));
-			numberofelements--;
-		}
-		else cout << "Wrong number!\n";
+			if (i <= numberofelements && i > 0) {
+				delete this->list[(i - 1)];
+				this->list.erase(list.begin() + (i - 1));
+				numberofelements--;
+			}
+			else cout << "Podano bledna wartosc!\n";
 	};
 
-	T* chooseObject(int i)
+	inline T* chooseObject(int i)
 	{
 		return list.at(i);
 	};
 
-	int getSize()
+	inline int getSize()
 	{
 		return numberofelements;
 	}
-
-	
 
 };
 #endif

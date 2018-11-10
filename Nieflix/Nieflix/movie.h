@@ -8,12 +8,15 @@ using namespace std;
 class Movie : public Media {
 private:
 	string genre = "Film";
-	int date = 0;
 public:
-	Movie(string, int);
+	Movie();
+	Movie(string, int, float);
 	~Movie();
 	string showInfo();
 	string getLength();
-
+	int Length();
+	void edit(bool);
+	string getGenre();
+	string toFile();
 };
 #endif

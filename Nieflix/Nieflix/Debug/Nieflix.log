@@ -1,6 +1,4 @@
-﻿  console.cpp
-  exception.cpp
-  Generating Code...
+﻿  stats.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   Nieflix.vcxproj -> C:\Users\Damian\Desktop\Nieflix\Debug\Nieflix.exe
   Nieflix.vcxproj -> C:\Users\Damian\Desktop\Nieflix\Debug\Nieflix.pdb (Partial PDB)

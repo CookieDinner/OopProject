@@ -42,6 +42,16 @@ string Media::getLength()
 	return s;
 }
 
+int Media::Length()
+{
+	return 0;
+}
+
+int Media::getDay()
+{
+	return 0;
+}
+
 void Media::setScore(float n_score)
 {
 	this->score = n_score;
@@ -50,4 +60,20 @@ void Media::setScore(float n_score)
 float Media::getScore()
 {
 	return this->score;
+}
+
+void Media::edit(bool mode)
+{
+	cout << "Nic tu nie ma\n";
+	_getch();
+}
+
+string Media::getGenre()
+{
+	return " ";
+}
+
+string Media::toFile()
+{
+	return string();
 }
