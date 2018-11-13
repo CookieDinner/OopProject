@@ -14,4 +14,5 @@ int main()
 	MediaList <Media> list;
 	console.start(list);
     return 0;
+	//nowa linia
 }
